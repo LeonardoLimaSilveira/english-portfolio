@@ -18,7 +18,6 @@ import ecommerce from '../public/e-commercejquery.png'
 import introsection from '../public/introsection.png'
 import interactiveC from '../public/interactiveC.png'
 import wildbeast from '../public/wildbeast.png'
-import dragDrop from '../public/drag and drop.png'
 
 import { useState, useEffect } from 'react'
 
@@ -161,7 +160,6 @@ export default function Home() {
                 STYLED-COMPONENTS
               </p>
               <p className="text-gray-800 py-1 dark:text-gray-200">
-                {' '}
                 I seek to use all my knowledge for the benefit of the company
                 and collaborators, always trying to be evolving and updated what
                 our customers need.
@@ -213,7 +211,6 @@ export default function Home() {
                 </div>
               </div>
               <div className="keen-slider__slide number-slide3">
-                {' '}
                 <div className="basis-1/4 flex-1 cursor-pointer">
                   <a
                     href="https://interactivecardreact-p2k54mngl-leonardolimasilveira.vercel.app"
@@ -232,7 +229,6 @@ export default function Home() {
                 </div>
               </div>
               <div className="keen-slider__slide number-slide4">
-                {' '}
                 <div className="basis-1/4 flex-1 cursor-pointer">
                   <a
                     href="https://leonardolimasilveira.github.io/E-commerceByLeonardoLS"
@@ -251,7 +247,6 @@ export default function Home() {
                 </div>
               </div>
               <div className="keen-slider__slide number-slide5">
-                {' '}
                 <a
                   href="https://github.com/LeonardoLimaSilveira/e-Sports"
                   target="_blank"
@@ -355,39 +350,30 @@ export default function Home() {
               <Image alt="image desc" src={todoappReact} />
             </div>
             <div className="keen-slider__slide number-slide2">
-              {' '}
               <Image alt="image desc" src={caravan} />
             </div>
             <div className="keen-slider__slide number-slide3">
-              {' '}
               <Image alt="image desc" src={interactiveC} />
             </div>
             <div className="keen-slider__slide number-slide4">
-              {' '}
               <Image alt="image desc" src={ecommerce} />
             </div>
             <div className="keen-slider__slide number-slide5">
-              {' '}
               <Image alt="image desc" src={NLW} />
             </div>
             <div className="keen-slider__slide number-slide6">
-              {' '}
               <Image alt="image desc" src={qrcode} />
             </div>
             <div className="keen-slider__slide number-slide7">
-              {' '}
               <Image alt="image desc" src={TextSpeech} />
             </div>
             <div className="keen-slider__slide number-slide8">
-              {' '}
               <Image alt="image desc" src={introsection} />
             </div>
             <div className="keen-slider__slide number-slide9">
-              {' '}
               <Image alt="image desc" src={advicegenerator} />
             </div>
             <div className="keen-slider__slide number-slide10">
-              {' '}
               <Image alt="image desc" src={wildbeast} />
             </div>
           </div>
